@@ -24,15 +24,16 @@ If you use this work, please cite:
         - Clone this repo
 
 ### Dataset
-        Please visit this [[google drive folder]](https://drive.google.com/drive/folders/0B6lmuyb_dWMtaTVMODJwTmVNcHc?usp=sharing)
+Please visit this [[google drive folder]](https://drive.google.com/drive/folders/0B6lmuyb_dWMtaTVMODJwTmVNcHc?usp=sharing)
 
 ## Running
 
 ### Annotating Your videos
-    You can use the UI in this code to annotate your own videos. It can be used to annotate any videos with dense frame-level action labels. We also provide the tools to parse the annotations and generate txt files for caffe to use.
+You can use the UI in this code to annotate your own videos. It can be used to annotate any videos with dense frame-level action labels. We also provide the tools to parse the annotations and generate txt files for caffe to use.
 
 ### Training
-    We fine-tune an alexnet and C3d model here. Basically, change the softmax to 5 class and fine-tune the whole networks. 
+We fine-tune an alexnet and C3d model here. Basically, change the softmax to 5 class and fine-tune the whole networks. 
+
 ### Testing
 
 
