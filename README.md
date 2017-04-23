@@ -12,27 +12,30 @@ If you use this work, please cite:
         }
         ``
 ## Setup
-        
+
 ### Prerequisites
         - Linux
         - NVIDIA GPU + CUDA CuDNN Recommended(CPU mode and CUDA without CuDNN also work)
-        
+
 ### Getting Started
         - Install [[Caffe]](http://caffe.berkeleyvision.org/)
+        - Install [[C3D]](https://github.com/facebook/C3D)
         - Install [[pythonVideoAnnotator]](pythonVideoAnnotator)
         - Clone this repo
-        
+
 ### Dataset
         Please visit this [[google drive folder]](https://drive.google.com/drive/folders/0B6lmuyb_dWMtaTVMODJwTmVNcHc?usp=sharing)
-        
+
 ## Running
-        
+
 ### Annotating Your videos
-        
+    You can use the UI in this code to annotate your own videos. It can be used to annotate any videos with dense frame-level action labels. We also provide the tools to parse the annotations and generate txt files for caffe to use.
+
 ### Training
-        
+    We fine-tune an alexnet and C3d model here. Basically, change the softmax to 5 class and fine-tune the whole networks. 
 ### Testing
-        
-        If you meet any trouble when using this program, fell free to contact me!
-        
-        `
+
+
+
+If you meet any trouble when using this program, fell free to contact me!
+
