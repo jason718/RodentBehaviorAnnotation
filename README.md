@@ -1,4 +1,3 @@
-# RodentBehaviorAnnotation
 # Who moved my cheese? Automatic Annotation of Rodent Behaviors with Convolutional Neural Networks 
 [[Project]](https://jason718.github.io/project/wacv17/project.html)   [[Paper]](https://jason718.github.io/project/wacv17/files/wacv17.pdf)
 
