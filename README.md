@@ -37,6 +37,6 @@ We fine-tune an alexnet and C3d model here. Basically, change the softmax to 5 c
 ### Testing
 
 
-
+## Contact
 If you meet any trouble when using this program, fell free to contact me!
 
