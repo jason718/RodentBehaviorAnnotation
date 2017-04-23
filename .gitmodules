@@ -1,0 +1,3 @@
+[submodule "pythonVideoAnnotator"]
+    path = pythonVideoAnnotator
+    url = git@github.com:jason718/pythonVideoAnnotator.git
